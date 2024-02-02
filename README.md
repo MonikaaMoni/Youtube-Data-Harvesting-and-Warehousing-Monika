@@ -15,7 +15,7 @@ Data Analysis
 
 Features
 
-  Retrieve data from the YouTube API, including channel information, playlists, videos, and comments.
+  Retrieve data from the YouTube API, including channel information,videos, and comments.
   Store the retrieved data in a MongoDB database.
   Migrate the data to a MySQL data warehouse.
   Analyze and visualize data using Streamlit.
