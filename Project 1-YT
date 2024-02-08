@@ -135,7 +135,6 @@ def get_comment_information(video_ids):
         except HttpError as e:
             if e.resp.status == 403:
                 print(f"Comments are disabled for the video with videoId: {video_id}")
-                # You can handle this case according to your needs
             else:
                 raise  # Re-raise the exception if it's not a comments disabled error
 
